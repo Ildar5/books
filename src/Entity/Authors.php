@@ -65,11 +65,6 @@ class Authors
         return $this->search;
     }
 
-    public function getFull(): ?string
-    {
-        return $this->name . ' ' . $this->first_name . ' ' . $this->last_name;
-    }
-
     public function getFirstName(): ?string
     {
         return $this->first_name;
